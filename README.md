@@ -7,6 +7,8 @@
 
 ## Example
 
+![alt tag](https://media0.giphy.com/media/SYRSNlu5xe2m94QEMW/giphy.gif)
+
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
@@ -18,6 +20,15 @@ it, simply add the following line to your Podfile:
 
 ```ruby
 pod 'AnimatePolyline'
+```
+
+## Usage
+
+```swift
+  self.animatePolyline = AnimatePolyline(mapView: self.mapView)
+  self.animatePolyline?.strokeColor = .black
+  self.animatePolyline?.route = route
+  self.animatePolyline?.startAnimation()
 ```
 
 ## Author
