@@ -11,6 +11,11 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
+Replace your Google Maps key in AppDelegate.swift
+
+```swift
+GMSServices.provideAPIKey("YOUR_GOOGLE_MAPS_KEY")
+```
 ## Requirements
 
 ## Installation
