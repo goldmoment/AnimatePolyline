@@ -1,0 +1,13 @@
+use_frameworks!
+platform :ios, '10.0'
+
+target 'AnimatePolyline_Example' do
+  pod 'AnimatePolyline', :path => '../'
+  pod 'GoogleMaps'
+
+  target 'AnimatePolyline_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
