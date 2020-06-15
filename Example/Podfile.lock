@@ -1,0 +1,28 @@
+PODS:
+  - AnimatePolyline (0.1.0):
+    - GoogleMaps
+  - GoogleMaps (3.8.0):
+    - GoogleMaps/Maps (= 3.8.0)
+  - GoogleMaps/Base (3.8.0)
+  - GoogleMaps/Maps (3.8.0):
+    - GoogleMaps/Base
+
+DEPENDENCIES:
+  - AnimatePolyline (from `../`)
+  - GoogleMaps
+
+SPEC REPOS:
+  trunk:
+    - GoogleMaps
+
+EXTERNAL SOURCES:
+  AnimatePolyline:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AnimatePolyline: 0f8ce00444585e8736cf9922cb3ef937b3cd0ad8
+  GoogleMaps: 7c8d66d70e4e8c300f43a7219d8fdaad7b325a9a
+
+PODFILE CHECKSUM: 443a0dfe78be6b9aa71d8acd66ff40a58d2afba5
+
+COCOAPODS: 1.9.1
